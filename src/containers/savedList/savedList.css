@@ -1,0 +1,97 @@
+.container {
+
+    grid-row: 1 / 2;
+    grid-column: list-start / list-end;
+
+    display: grid;
+
+    row-gap: 4rem;
+
+    overflow: auto;
+
+
+}
+
+.list {
+
+    padding: 2rem 0;
+
+    /* display: grid;
+    grid-template-columns: 100%; */
+
+    list-style: none;
+
+    
+
+}
+
+.container .buttons {
+
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-bottom: 3rem;
+
+}
+
+.container .buttons a,
+.container .buttons a:visited,
+.container .buttons a:active {
+
+    text-decoration: none;
+
+    color: black;
+    font-size: 1.5rem;
+    /* height: 2.5rem; */
+    padding: 1rem;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: none;
+    font-family: 'Quicksand', sans-serif;
+
+    transition: all .2s;
+
+
+}
+
+.container .buttons a:hover{
+
+    background-color: #ff7575;
+
+}
+
+
+.container .button,
+.container .button:focus,
+.container .button:active {
+
+    
+    height: 2.5rem;
+    padding: 0 .8rem;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: none;
+    font-family: 'Quicksand', sans-serif;
+
+    transition: all .2s;
+
+}
+
+.container .button:hover{
+
+    background-color: #ff7575;
+
+}
+
+.container .message {
+
+    font-family: 'Quicksand', sans-serif;
+
+    text-align: center;
+    font-size: 2rem;
+
+}

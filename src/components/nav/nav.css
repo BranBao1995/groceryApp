@@ -1,0 +1,116 @@
+.container {
+
+    grid-row: nav-start / nav-end;
+    grid-column: 1 / 2;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 2rem 2rem;
+
+}
+
+
+
+.container a,
+.container a:visited,
+.container a:active {
+
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    
+
+}
+
+
+.container a.Logo {
+
+    font-size: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+    color: #d4227b;
+
+}
+
+.container ul {
+
+    list-style: none;
+    display: flex;
+
+}
+
+.container ul li {
+
+    margin-right: 1rem;
+    
+
+}
+
+.container ul li .loginLink {
+
+    margin-right: 1rem;
+    display: inline-block;
+
+}
+
+.container ul li .signupLink {
+
+    margin-right: 0;
+    display: inline-block;
+
+}
+
+.container ul li .logoutLink {
+
+    margin-right: 1rem;
+    display: inline-block;
+
+}
+
+.container ul li .flaggedLink {
+
+    margin-right: 0;
+    display: inline-block;
+
+}
+
+.container ul li a,
+.container ul li a:visited,
+.container ul li a:active {
+
+    color: black;
+    transition: all .2s;
+
+}
+
+.container ul li a:hover {
+
+    color: #d4227b;
+    
+
+}
+
+.container ul li:last-child {
+
+    margin-right: 0rem;
+
+}
+
+/* .container ul li .button {
+
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    transition: all .2s;
+
+}
+
+.container ul li .button:hover {
+
+    color: #d4227b;
+     */
+
+/* } */

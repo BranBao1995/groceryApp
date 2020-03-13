@@ -1,0 +1,16 @@
+.container {
+
+    grid-row: main-start / main-end;
+    grid-column: 1 / 2;
+
+    display: grid;
+
+    grid-template-rows: 100%;
+    grid-template-columns: [text-start] 70% [text-end list-start] 30% [list-end];
+
+    margin-top: 2rem;
+    padding: 1rem;
+    /* border: .3rem dashed black; */
+    background-color: white;
+
+}

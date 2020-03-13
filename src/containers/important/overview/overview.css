@@ -1,0 +1,61 @@
+.container {
+
+    grid-row: 1 / 2;
+    grid-column: detail-start / detail-end;
+
+    padding: 2rem;
+    display: grid;
+    row-gap: 4rem;
+    width: 100%;
+    height: 100%;
+
+    border-left: .2rem solid #f0f0f0;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+
+.overview {
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(min-content, 1fr));
+
+    row-gap: 3rem;
+    column-gap: 1rem;
+
+}
+
+.container .buttons {
+
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.container .button {
+
+    display: block;
+    width: 8rem;
+    height: 3rem;
+    padding: 0 .8rem;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: none;
+    font-family: 'Quicksand', sans-serif;
+
+    transition: all .2s;
+
+    cursor: pointer;
+
+}
+
+
+.container .button:hover{
+
+    background-color: #ff7575;
+
+}

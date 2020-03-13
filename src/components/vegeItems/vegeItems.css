@@ -1,0 +1,93 @@
+.container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 2rem;
+    padding: 1rem;
+
+    border-radius: 5px;
+
+    transition: all .2s;
+
+}
+
+.container:hover {
+
+    background-color: #ffe5a1;
+
+}
+
+.thumbnail {
+
+    display: flex;
+    align-items: center;
+
+    width: 25%;
+    height: 100%;
+
+}
+
+.thumbnail img {
+
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    margin-right: 2rem;
+
+    border-radius: 10%;
+
+    object-fit: cover;
+
+}
+
+.thumbnail p {
+
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+
+.buttons {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.button,
+.button:focus,
+.button:active {
+
+    display: block;
+
+    width: 1rem;
+    height: 1rem;
+
+
+    cursor: pointer;
+
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+    transition: all .1s;
+
+}
+
+.button:hover {
+
+    transform: scale(1.3);
+
+}
+
+.button svg {
+
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}

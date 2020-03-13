@@ -1,0 +1,46 @@
+.container {
+
+    display: grid;
+    row-gap: 4rem;
+    width: 100%;
+    height: 100%;
+
+    overflow: auto;
+
+}
+
+.items {
+
+    display: grid;
+    grid-template-columns: repeat(2, minmax(min-content, 1fr));
+
+    row-gap: 5rem;
+    column-gap: 3rem;
+
+}
+
+.container .button,
+.container .button:focus,
+.container .button:active {
+
+    height: 4rem;
+    margin: 0 auto;
+    padding: 0 .8rem;
+    border: none;
+    border-radius: 5px;
+
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+
+    cursor: pointer;
+
+    transition: all .2s;
+
+}
+
+.container .button:hover {
+
+    background-color: #ff7575;
+
+}

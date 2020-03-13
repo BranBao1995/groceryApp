@@ -1,0 +1,41 @@
+.container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 2rem;
+    padding: 1rem;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    transition: all .2s;
+
+}
+
+.container:hover {
+
+    background-color: #ffe5a1;
+
+}
+
+.container img {
+
+    display: block;
+    object-fit: cover;
+
+    width: 25%;
+    height: 100%;
+
+    border-radius: 10%;
+
+}
+
+.container h2 {
+
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+
+}

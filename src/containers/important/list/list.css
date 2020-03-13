@@ -1,0 +1,25 @@
+.container {
+
+    grid-row: 1 / 2;
+    grid-column: list-start / list-end;
+
+    padding: 0 3rem;
+
+    
+
+
+}
+
+.container .list {
+
+    padding: 2rem 0;
+
+    /* display: grid;
+    grid-template-columns: 100%; */
+
+    list-style: none;
+
+    overflow: auto;
+
+
+}

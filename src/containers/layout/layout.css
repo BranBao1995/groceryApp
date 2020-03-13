@@ -1,0 +1,8 @@
+.container {
+
+    display: grid;
+
+    grid-template-rows: [nav-start] 5vh [nav-end main-start] 95vh [main-end];
+    grid-template-columns: 100%;
+
+}

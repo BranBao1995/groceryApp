@@ -1,0 +1,9 @@
+.container {
+
+    grid-row: 1 / 2;
+    grid-column: text-start / text-end;
+
+    border-right: .2rem solid #f0f0f0;
+    margin: 2rem 2rem;
+
+}

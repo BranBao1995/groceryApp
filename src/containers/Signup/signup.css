@@ -1,0 +1,61 @@
+.container {
+
+    display: grid;
+
+    
+    grid-template-rows: [nav-start] 5vh [nav-end form-start] 95vh [form-end];
+    grid-template-columns: 100%;
+
+}
+
+
+.form {
+
+    grid-row: form-start / form-end;
+
+    grid-column: 1 / 2;
+
+    margin: 6rem auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    width: 40%;
+
+}
+
+.formField {
+
+    display: block;
+    width: 100%;
+
+}
+
+
+.container .form .button,
+.container .form .button:focus,
+.container .form .button:active {
+
+    margin: 1rem auto;
+    
+    height: 2.5rem;
+    padding: 0 .8rem;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: none;
+    font-family: 'Quicksand', sans-serif;
+
+    transition: all .2s;
+
+}
+
+.container .form .button:hover{
+
+    background-color: #ff7575;
+
+}
